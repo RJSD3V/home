@@ -1,86 +1,104 @@
-.name_card{
-    width: 50%;
-    display: block; 
-    margin: auto;
-    border: 0.5px solid gray;
-    padding: 20px 10px 20px 20px;
-    box-shadow: 3px 2px;
-    
-  }
-
-  img  {
-    width:170px;
-    height:170px;
-    margin-left:15px;
-    display: inline-block;
+body{
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
-.details{
-    display: inline-block;
-    width: 70%;
+.main{
+  display: flex;
+  width: 65%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-.me{
-    width: 30%
-    
-  }
+.name-card{
+  display: flex;
+  justify-content: space_between;
+  align-items: center;
+}
+
+.contact{
+  height: auto;
+  display: flex;
+  justify-content: space-between;
   
-  .article{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    border: 0.5px solid gray;
-    padding: 0px 10px 20px 20px;
-    box-shadow: 7px 4px;
-    
-  }
+}
+
+.social{
+  width: 50px;
+  height: 50px;
+  background-color: #c5d9ed;
+  margin: 10px;
+  box-shadow: 2px 2px;
+  
+}
+
+.social:hover{
+  box-shadow: 4px 4px;
+}
 
 
 
+img.dp{
+  border-radius: 20%;
+  margin-right: 30px;
+}
 
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  margin: auto;
+}
+
+.nav{
+  width: 33.3%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px;
+}
+
+.nav:hover{
+  box-shadow: 4px 4px;
+}
+#div1{
+
+  background-color: crimson;
   
-  .navbar{
-   width: 50%;
-   margin: auto;
-   padding: 10px 0px 0px 0px;
-   }
+}
+
+.article{
+  width: 60%;
+  background-color: #fff7e0;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0.5px solid gray;
+  box-shadow: 7px 4px;
+  padding: 20px;
   
-  .nav_item{
-    display: inline-block;
-    width: 46%;
-    padding: 10px;
-    border: 0.5px solid black;
-  
-    
-  }
-  
-  .card{
-   display: inline-block;
-  }
-  
-  body{
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  #full-name{
-    font-size:40;
-  }
-  
-  #designation{
-    font-size:30;
-  }
-  
-  .article,p{
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 
-  }
+}
+
+#div2{
+
+  background-color: teal;
+}
+
+#div3 {
+
+  background-color: #008a20;
+}
+
+.nav p {
+  text-align: center;
+  color: white;
   
   
-  
+}
