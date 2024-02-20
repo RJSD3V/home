@@ -21,23 +21,16 @@ body{
 }
 
 .contact{
+  width:25%;
   height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   
 }
 
-.social{
-  width: 50px;
-  height: 50px;
-  background-color: #c5d9ed;
-  margin: 10px;
-  box-shadow: 2px 2px;
-  
-}
-
-.social:hover{
-  box-shadow: 4px 4px;
+img .social:hover{
+  width: 55px;
+  height: 55px;
 }
 
 
