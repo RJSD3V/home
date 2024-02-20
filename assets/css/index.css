@@ -23,7 +23,7 @@ body{
 .contact{
   height: auto;
   display: flex;
-  justify_content: space-between;
+  justify-content: space-between;
   
 }
 
@@ -79,7 +79,7 @@ img.dp{
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  margin-botom: 10px;
+  margin-bottom: 10px;
   border: 0.5px solid gray;
   box-shadow: 7px 4px;
   padding: 20px;
