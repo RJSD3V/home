@@ -56,6 +56,19 @@ img.dp{
   box-shadow: 2px 2px;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+
+.link-nav{
+  width:100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+}
+
 .nav:hover{
   box-shadow: 4px 4px;
 }
@@ -68,7 +81,7 @@ img.dp{
 .article{
   width: 60%;
   background-color: #fff7e0;
-  height: 100px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -94,4 +107,93 @@ img.dp{
   color: white;
   
   
+}
+
+p{
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+iframe{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.stack{
+  display: flex;
+
+}
+
+.stack-item{
+  padding: 0px 10px 0px 10px;
+  margin-right: 10px;
+}
+
+.stack-item p{
+  font-size: 11px;
+}
+
+#python 
+{
+   background-color: #FFFFCC;
+}
+
+#snowflake{
+  background-color: lightblue;
+  color: white;
+}
+
+#dbt{
+  background-color: coral;
+  color: white;
+
+}
+
+#looker{
+  background-color: violet;
+  color: white;
+}
+
+#tableau{
+  background-color: crimson;
+  color: white;
+}
+
+#flutter{
+  background-color: #7fcdff;
+  color: white;
+}
+
+#mongodb{
+  color: white;
+  background-color: #008a20;
+}
+
+#nodejs{
+  color: black;
+  background-color: greenyellow;
+}
+
+#unity{
+  background-color: black;
+  color: white;
+}
+
+#c-sharp{
+  background-color: purple;
+  color: white;
+}
+
+#talend{
+  color:white;
+  background-color:cornflowerblue;
+}
+
+footer{
+  width: 100%;
+  height: 20%;
 }
