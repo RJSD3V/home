@@ -4,6 +4,7 @@ body{
   font-weight: bold;
   font-style: normal;
   margin: 2px;
+  background-color: #F0F8FF;
 }
 
 .main{
@@ -100,21 +101,28 @@ img.dp{
 
 .article{
   width: 90%;
-  background-color: #F0F8FF;
+  background-color: white;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 0.5px solid gray;
-  box-shadow: 2px 2px;
-  padding: 20px;
+  box-shadow: 1px 1px;
+  padding: 50px;
   
 }
 
 .article-img{
-  width:inherit;
+  width:100%;
+  height:auto;
   text-align:center;
+}
+
+.article p{
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 
