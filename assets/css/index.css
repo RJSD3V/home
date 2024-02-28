@@ -73,12 +73,16 @@ img.dp{
   box-shadow: 1px 1px;
 }
 
-a {
+
+.nav-link{
+
   width: 33%;
   text-decoration: none;
   display: block;
   color:white;
+
 }
+
 
 
 
@@ -110,6 +114,7 @@ a {
 
 .article-img{
   width:inherit;
+  text-align:center;
 }
 
 
