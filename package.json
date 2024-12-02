@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "My personal website (Raajas Sode)",
   "main": "index.js",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RJSD3V/rjsd3v.github.io.git"
@@ -17,8 +16,11 @@
   "bugs": {
     "url": "https://github.com/RJSD3V/rjsd3v.github.io/issues"
   },
-  "homepage": "https://github.com/RJSD3V/rjsd3v.github.io#readme",
   "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1"
