@@ -21,12 +21,17 @@
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "@mui/material": "^6.1.9",
+    "@mui/x-charts": "^7.23.1",
+    "@nivo/bar": "^0.88.0",
+    "@nivo/core": "^0.88.0",
+    "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.15.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=5000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

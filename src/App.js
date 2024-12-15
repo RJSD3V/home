@@ -1,10 +1,18 @@
-import { useState } from 'react';
+import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import Matter from './components/Matter';
 
 
 export default function App() {
     return (
-        <div>
-            <h1>Hello World</h1>
+        <div 
+            style={{
+                height: "100%"
+            }}
+        >
+            <Header />
+            <Matter />
+
         </div>
     )
 }
