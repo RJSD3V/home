@@ -18,8 +18,22 @@ body{
   
 }
 
+table{
+  border: 1px solid black;
+  margin: auto;
+}
+
+tr{
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
 .blog{
-  width:80%;
+  width:90%;
   margin: auto;
 }
 
